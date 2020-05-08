@@ -15,7 +15,7 @@
 <body class="bg-light">
 <nav class="navbar navbar-expand-lg navbar-light navigation" style="padding: 0;height: 40px;">
     <a class="navbar-brand" href="#">
-        <img src="logo.png" width="50" height="50" alt="Sashesh Singh-Logo" class="logo">
+        <img src="style/img/logo.png" width="50" height="50" alt="Sashesh Singh-Logo" class="logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -145,14 +145,45 @@
 
 <div class="container">
     <p class="container-heading">Drop a Line</p>
-    <form>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
 
-    </form>
+            </div>
+            <div class="col-lg-8">
+                <form>
+                    <input type="text">
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="footer bg-dark">
     <img src="logo.png" alt="Sashesh Singh`s logo" width="50" height="50" style="margin: 10% 50% 5% 50%; border-radius: 25px">
     <a href="https://www.facebook.com/iamsasheshsingh/" target="_blank" class="text-light">Facebook</a>
 </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyC508H3kGWqx_Lq2zxflng_dMNzgQ_E704",
+        authDomain: "mywebsite-6ea4e.firebaseapp.com",
+        databaseURL: "https://mywebsite-6ea4e.firebaseio.com",
+        projectId: "mywebsite-6ea4e",
+        storageBucket: "mywebsite-6ea4e.appspot.com",
+        messagingSenderId: "1078077592704",
+        appId: "1:1078077592704:web:aed4ddfe2662f3db2c8265",
+        measurementId: "G-M7T92ZJHRL"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
 <script rel="script" src="style/js/jquery.slim.min.js"></script>
 <script rel="script" src="style/js/bootstrap.min.js"></script>
 </body>
