@@ -1,0 +1,108 @@
+.logo
+{
+    margin: 25% auto auto 50%;
+    border-radius: 50%;
+}
+body
+{
+    font-family: 'Roboto', serif;
+    color: black;
+    width: 90%;
+    margin: auto 5%;
+}
+.navbar-collapse,navbar-nav
+{
+    height: 100%;
+    margin:0;
+}
+.navbar-nav
+{
+    padding: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right:10%;
+}
+.nav-item {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-family: 'BioRhyme', serif;
+    font-size: 16px;
+    color: #0b2e13;
+    font-weight: bold;
+}
+.navbar .nav-item .link:hover
+{
+    font-size: 20px;
+    /*color:  #ff0080;*/
+    color: purple;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+/*Content css starts from here*/
+p h1
+{
+    padding: 0;
+}
+/*.col-left-img,.col-right-img*/
+/*{*/
+/*    width: 40%;*/
+/*}*/
+/*.col-left,.col-right*/
+/*{*/
+/*    width: 80%;*/
+/*}*/
+.row
+{
+    margin: 5% auto;
+}
+.col-left h2,.col-right h2
+{
+    margin: 5% auto 5% auto;
+    font-family: 'Merienda One', cursive;
+    color: purple;
+    font-weight: bolder;
+    font-size: 32px ;
+}
+/*Work Section*/
+.col-left
+{
+    margin: auto auto auto 0;
+    text-align: justify;
+}
+.col-right
+{
+    margin: auto 0 auto auto;
+    text-align: left;
+}
+
+
+.container
+{
+    margin: 5%;
+}
+/*Container Section*/
+.container-heading
+{
+    margin-top: 7.5%;
+    margin-bottom: 5%;
+    font-family: 'Pacifico', cursive;
+    color:purple;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.col-lg-5 img
+{
+    margin: auto 7.5%;
+    width: 85%;
+}
+
+.connect-img img
+{
+    width: 70%;
+    border-radius: 25px;
+}
