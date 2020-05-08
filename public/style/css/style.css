@@ -3,12 +3,20 @@
     margin: 25% auto auto 50%;
     border-radius: 50%;
 }
-body
+.body
 {
     font-family: 'Roboto', serif;
     color: black;
     width: 90%;
     margin: auto 5%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .body
+    {
+        width: 100%;
+        margin: auto auto;
+    }
 }
 .navbar-collapse,navbar-nav
 {
@@ -103,6 +111,11 @@ p h1
 
 .connect-img img
 {
-    width: 70%;
-    border-radius: 25px;
+    width: 50%;
+    margin: auto 25%;
+    border-radius: 50px;
+}
+.row
+{
+    margin: 7.5% auto;
 }
